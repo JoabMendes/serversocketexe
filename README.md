@@ -2,7 +2,7 @@
 ServerSocketExe
 ===============
 
-Example of socket communication using java
+Example of socket communication using java without multithreaded.
 
 Compiling
 ---------
@@ -31,7 +31,7 @@ Example
 		Socket timed out!
 
 		$ java GreetingClient localhost 6065
-		
+
 		Connecting to localhost on port 6065
 		Just connected to localhost/0:0:0:0:0:0:0:1:6065
 		Server says Thank you for connecting to /0:0:0:0:0:0:0:1%0:6065
